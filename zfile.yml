@@ -1,0 +1,6 @@
+- name: Zaphod Beeblebrox
+  species: betelgeusian
+- name: Arthur Dent
+  species: human
+- name: Ford Prefect
+  species: null
