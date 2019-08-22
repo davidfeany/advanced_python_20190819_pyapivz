@@ -1,0 +1,551 @@
+    1  hostname
+    2  whoami
+    3  wherami
+    4  which python
+    5  ll
+    6  mkdir pyapivz
+    7  cd pyapivz
+    8  vi 01-list.py
+    9  chmod 777 01-list.py 
+   10  fg
+   11  ./01-list.py 
+   12  fg
+   13  ./01-list.py 
+   14  fg
+   15  python3 --version
+   16  fg
+   17  ./01-list.py 
+   18  fg
+   19  ./01-list.py 
+   20  fg
+   21  vi 02-dict.py
+   22  ll
+   23  mv 01-list.py list01.py
+   24  mv 02-dict.py dict02.py
+   25  vi dict02.py 
+   26  chmod 777 dict02.py 
+   27  ./dict02.py 
+   28  fg
+   29  ./dict02.py 
+   30  fg
+   31  ./dict02.py 
+   32  fg
+   33  ll
+   34  chmod 775 *
+   35  ./dict02.py 
+   36  vi makinjason03.py
+   37  chmod 775 makinjason03.py 
+   38  ./makinjason03.py 
+   39  cat galaxyguide.json 
+   40  fg
+   41  cat galaxyguide.json 
+   42  ./makinjason03.py 
+   43  fg
+   44  ./makinjason03.py 
+   45  cat galaxyguide.json 
+   46  fg
+   47  ./makinjason03.py 
+   48  cat galaxyguide.json 
+   49  fg
+   50  ./makinjason03.py 
+   51  vi makinjason03.py
+   52  ./makinjason03.py 
+   53  cat galaxyguide.json 
+   54  fg
+   55  vi srvrdata.json
+   56  vim srvrdata.json
+   57  ll
+   58  vi readinjason04.py 
+   59  ll
+   60  mv srvrdata.json datcenter.json
+   61  fg
+   62  chmod 775 readinjason04.py 
+   63  ./readinjason04.py 
+   64  ll
+   65  mv datcenter.json datacenter.json
+   66  ./readinjason04.py 
+   67  fg
+   68  ./readinjason04.py 
+   69  fg
+   70  ./readinjason04.py 
+   71  fg
+   72  ll
+   73  mv makinjason03.py makinyaml05.py 
+   74  cp makinyaml05.py makinjason03.py
+   75  vi makinyaml05.py
+   76  ./makinyaml05.py 
+   77  ll
+   78  cat zfile.yml 
+   79  fg
+   80  cp makinyaml05.py makinyaml06.py 
+   81  vi makinyaml06.py 
+   82  ./makinyaml06.py 
+   83  vi makinyaml05.py 
+   84  ./makinyaml0*
+   85  ./makinyaml05.py 
+   86  ./makinyaml06.py 
+   87  vi myyaml.yml
+   88  vi 
+   89  chmod 775 yamlreader07.py 
+   90  ./yamlreader07.py 
+   91  fg
+   92  ./yamlreader07.py 
+   93  ll
+   94  fg
+   95  ./yamlreader07.py 
+   96  fg
+   97  ./yamlreader07.py 
+   98  ./yamlreader07.py -W
+   99  ./yamlreader07.py -W ignore
+  100  python3 ./yamlreader07.py -W ignore
+  101  python3 -W ignore ./yamlreader07.py 
+  102  ./yamlreader07.py 2>/dev/null
+  103  python3 -m pip install requests
+  104  vi anapioficeandfire.py
+  105  chmod 775 anapioficeandfire.py 
+  106  ./anapioficeandfire.py 
+  107  fg
+  108  ./anapioficeandfire.py 
+  109  fg
+  110  ./anapioficeandfire.py 
+  111  fg
+  112  ./anapioficeandfire.py 
+  113  fg
+  114  ./anapioficeandfire.py 
+  115  fg
+  116  ./anapioficeandfire.py 
+  117  fg
+  118  ./anapioficeandfire.py 
+  119  fg
+  120  ./anapioficeandfire.py 
+  121  fg
+  122  ./anapioficeandfire.py 
+  123  fg
+  124  ll
+  125  ll -rt
+  126  cat yamlreader07.py 
+  127  cat myyaml.yml 
+  128  cat readinjason04.py 
+  129  fg
+  130  ./anapioficeandfire.py 
+  131  fg
+  132  ./anapioficeandfire.py 
+  133  grep loads *
+  134  fg
+  135  ./anapioficeandfire.py 
+  136  fg
+  137  ./anapioficeandfire.py 
+  138  fg
+  139  ./anapioficeandfire.py 
+  140  fg
+  141  ./anapioficeandfire.py 
+  142  fg
+  143  ./anapioficeandfire.py 
+  144  fg
+  145  ./anapioficeandfire.py 
+  146  fg
+  147  ./anapioficeandfire.py 
+  148  fg
+  149  ./anapioficeandfire.py 
+  150  fg
+  151  ./anapioficeandfire.py 
+  152  fg
+  153  ./anapioficeandfire.py 
+  154  fg
+  155  ./anapioficeandfire.py 
+  156  fg
+  157  ./anapioficeandfire.py 
+  158  fg
+  159  ./anapioficeandfire.py 
+  160  fg
+  161  ./anapioficeandfire.py 
+  162  fg
+  163  ./anapioficeandfire.py 
+  164  fg
+  165  ./anapioficeandfire.py 
+  166  fg
+  167  ll -rt
+  168  vi anapioficeandfire.py 
+  169  ./anapioficeandfire.py 
+  170  vi lab_p31.py
+  171  chmod 775 lab_p31.py 
+  172  ./lab_p31.py 
+  173  fg
+  174  ./lab_p31.py 
+  175  fg
+  176  ./lab_p31.py 
+  177  fg
+  178  cat lab_p31.py 
+  179  more lab_p31.py 
+  180  fg
+  181  ./lab_p31.py 
+  182  fg
+  183  ./lab_p31.py 
+  184  fg
+  185  ./lab_p31.py 
+  186  fg
+  187  ./lab_p31.py 
+  188  fg
+  189  ./lab_p31.py 
+  190  fg
+  191  ./lab_p31.py 
+  192  fg
+  193  ./lab_p31.py 
+  194  fg
+  195  ./lab_p31.py 
+  196  fg
+  197  ./lab_p31.py 
+  198  fg
+  199  ./lab_p31.py 
+  200  fg
+  201  ./lab_p31.py 
+  202  fg
+  203  vi try10.py
+  204  chmod 775 try10.py 
+  205  ./try10.py 
+  206  fg
+  207  ./try10.py 
+  208  fg
+  209  ./try10.py 
+  210  fg
+  211  ./try10.py 
+  212  fg
+  213  ./try10.py 
+  214  fg
+  215  ll
+  216  ll -rt
+  217  fg
+  218  ll -rt
+  219  ./try10.py 
+  220  ll -rt
+  221  fg
+  222  ./try10.py 
+  223  fg
+  224  ll
+  225  ./try10.py 
+  226  vi try10.py 
+  227  ./try10.py 
+  228  ll -rt
+  229  fg
+  230  ./try10.py 
+  231  fg
+  232  ll
+  233  vi uri11.py
+  234  chmod 775 uri11.py 
+  235  ./uri11.py 
+  236  fg
+  237  ./uri11.py 
+  238  fg
+  239  ./uri11.py 
+  240  fg
+  241  ./uri11.py 
+  242  grep keys *
+  243  cat anapioficeandfire.py 
+  244  fg
+  245  ./uri11.py 
+  246  fg
+  247  ./uri11.py 
+  248  fg
+  249  ./uri11.py 
+  250  fg
+  251  ./uri11.py 
+  252  fg
+  253  ./uri11.py 
+  254  fg
+  255  ./uri11.py 
+  256  fg
+  257  ./uri11.py 
+  258  fg
+  259  ./uri11.py 
+  260  fg
+  261  ./uri11.py 
+  262  fg
+  263  ./uri11.py 
+  264  fg
+  265  ./uri11.py 
+  266  fg
+  267  ./uri11.py 
+  268  fg
+  269  ./uri11.py 
+  270  fg
+  271  ./uri11.py 
+  272  fg
+  273  ./uri11.py 
+  274  fg
+  275  ./uri11.py 
+  276  fg
+  277  ./uri11.py 
+  278  fg
+  279  ./uri11.py 
+  280  fg
+  281  git remote add origin https://github.com/davidfeany/advanced_python_20190819.git
+  282  grep -i api *
+  283  mkdir ../apikeys
+  284  mkdir ~/.apikeys
+  285  vi ~/.apikeys/uri11.py
+  286  vi ~/.apikeys/uri11.key
+  287  pwd
+  288  ll /home/student/pyapivz/.apikeys/
+  289  ll /home/student/.apikeys/uri11.key 
+  290  fg
+  291  vi uri11.py 
+  292  ./uri11.py 
+  293  fg
+  294  ./uri11.py 
+  295  fg
+  296  git init
+  297  git add * 
+  298  git commit -m "Start of day 2"
+  299  git config --global user.email "david.feany@gmail.com"
+  300  git config --global user.name "David Feany"
+  301  git commit -m "Start of day 2"
+  302  git push https://github.com/davidfeany/advanced_python_20190819_pyapivz master
+  303  history 
+  304  vi gitpush.sh
+  305  fg
+  306  chmod 775 gitpush.sh 
+  307  ./gitpush.sh 
+  308  wget https://alta3.com/static/projects/ansible/modules/setup.sh -0 mod-setup.sh
+  309  wget https://alta3.com/static/projects/ansible/modules/setup.sh -O mod-setup.sh
+  310  wget https://alta3.com/static/projects/ansible/max_teardown.sh -O max_teardown.sh
+  311  bash max_teardown.sh 
+  312  bash mod-setup.sh 
+  313  ping -c 10.10.2.3
+  314  ping -c 1 10.10.2.3
+  315  ping -c 1 10.10.2.4
+  316  ping -c 1 10.10.2.5
+  317  python3 -m pip freeze
+  318  vi requirements.txt
+  319  vi deploypipsetup.py
+  320  cat deploypipsetup.py > paramicossh14.py
+  321  chmod 775 deploypipsetup.py paramicossh14.py 
+  322  vi paramicossh14.py 
+  323  ./paramicossh14.py 
+  324  fg
+  325  ./paramicossh14.py 
+  326  fg
+  327  ./paramicossh14.py 
+  328  fg
+  329  ./paramicossh14.py 
+  330  fg
+  331  ./paramicossh14.py 
+  332  fg
+  333  ./paramicossh14.py 
+  334  fg
+  335  ./paramicossh14.py 
+  336  fg
+  337  ./paramicossh14.py 
+  338  fg
+  339  ll
+  340  ll -rt
+  341  cp uri11.py iss_tracker.py
+  342  vi iss_tracker.py 
+  343  vi paramicosftp15.py
+  344  pyton3 -m pip list
+  345  pyton3 -m pip freeze
+  346  python3 -m pip list
+  347  python3 -m pip freeze > requirements2.txt 
+  348  fg
+  349  chmod 775 paramicosftp15.py 
+  350  ./paramicosftp15.py 
+  351  fg
+  352  ./paramicosftp15.py 
+  353  fg
+  354  vi requirements.txt 
+  355  fg
+  356  ./paramicosftp15.py 
+  357  fg
+  358  ./paramicosftp15.py 
+  359  ll /home/student/.ssh/id_rsa
+  360  fg
+  361  ./paramicosftp15.py 
+  362  fg
+  363  ./paramicosftp15.py 
+  364  fg
+  365  ./paramicosftp15.py 
+  366  fg
+  367  ./paramicosftp15.py 
+  368  fg
+  369  ./paramicosftp15.py 
+  370  fg
+  371  grep utf *
+  372  fg
+  373  ./paramicosftp15.py 
+  374  fg
+  375  ./paramicosftp15.py 
+  376  ssh bender@10.10.2.3 python3 -m ip freeze
+  377  ssh bender@10.10.2.3 python3 -m pip freeze
+  378  fg
+  379  ./paramicosftp15.py 
+  380  fg
+  381  ./paramicosftp15.py 
+  382  ssh bender@10.10.2.3 cat requirements.txt
+  383  vi requirements.txt 
+  384  ./paramicosftp15.py 
+  385  fg
+  386  ./paramicosftp15.py 
+  387  fg
+  388  ll
+  389  vi iss_tracker.py 
+  390  ./iss_tracker.py 
+  391  fg
+  392  ./iss_tracker.py 
+  393  fg
+  394  ./iss_tracker.py 
+  395  fg
+  396  ./iss_tracker.py 
+  397  fg
+  398  python3 -m pip install flask
+  399  mkdir flaskin
+  400  cd flaskin/
+  401  vi myflask01.py
+  402  fg
+  403  ll
+  404  chmod 775 myflask01.py 
+  405  ./myflask01.py 
+  406  fg
+  407  ./myflask01.py 
+  408  fg
+  409  curl http://127.0.0.1:5006
+  410  curl http://127.0.0.1:5006/
+  411  curl http://127.0.0.1:5006/hello/
+  412  ls
+  413  ll
+  414  fg
+  415  curl http://127.0.0.1:5006/hello
+  416  curl http://127.0.0.1:5006/hello/
+  417  fg
+  418  curl http://127.0.0.1:5006/
+  419  curl http://127.0.0.1:5006/goodbye
+  420  curl http://127.0.0.1:5006/goodbye/
+  421  fg
+  422  curl http://127.0.0.1:5006/goodbye
+  423  curl http://127.0.0.1:5006/hello
+  424  cd ..
+  425  cat gitpush.sh 
+  426  ./gitpush.sh 
+  427  git add *
+  428  git status
+  429  git push https://github.com/davidfeany/advanced_python_20190819_pyapivz master
+  430  git commit
+  431  git commit -m "end of 2nd day"
+  432  vi gitpush.sh 
+  433  echo "{date}"
+  434  echo < date
+  435  date
+  436  date | xargs echo  
+  437  date | xargs echo blah blah  
+  438  fg
+  439  date | xargs -I {} echo {} blah blah  
+  440  date | xargs -I {} echo {} blah {} blah  
+  441  fg
+  442  ./gitpush.sh 
+  443  git status
+  444  curl http://127.0.0.1:5006/hello
+  445  fg
+  446  vi iss_tracker.py 
+  447  mv iss_tracker.py iss_tracker_get_passes_only.py 
+  448  vi iss_tracker_get_passes_only.py 
+  449  vi myflask02.py
+  450  mkdir templates
+  451  cd templates
+  452  vi postmaker.html
+  453  cd ..
+  454  vi flask03.py
+  455  mv myflask02.py flask03.py flaskin/
+  456  cd flaskin/
+  457  vi myflask03.py 
+  458  fg
+  459  ll templates/
+  460  fg
+  461  cd templates/
+  462  vi
+  463  cd ..
+  464  vi
+  465  vi jinja01.py
+  466  vi templates/helloname.html 
+  467  fg
+  468  vi jinja02.py
+  469  chmod 775 jinja02.py 
+  470  fg
+  471  cd templates/
+  472  wget https://bit.ly/2zeTQnO -O baseIOS.conf.j2
+  473  ll
+  474  cd ..
+  475  cat templates/baseIOS.conf.j2 
+  476  vi cisco01.py
+  477  cp cisco01.py milkandcookies.py
+  478  vi milkandcookies.py 
+  479  vi templates/index.html 
+  480  fg
+  481  vi templates/index.html 
+  482  fg
+  483  cat templates/index.html 
+  484  vi templates/readcookie.html 
+  485  fg
+  486  ll
+  487  ifconfig
+  488  ifconfig | grep addr
+  489  ifconfig | grep inet
+  490  ifconfig | grep "inet "
+  491  whoami
+  492  ssh student@10.10.2.1 hostname
+  493  ssh student@10.10.3.1 hostname
+  494  ssh student@10.10.2.2 hostname
+  495  ssh student@10.2.190.209 hostname
+  496  ssh student@10.2.190.210 hostname
+  497  ssh student@10.2.190.201 hostname
+  498  ssh student@10.2.190.202 hostname
+  499  ssh student@10.2.190.203 hostname
+  500  ssh student@10.2.190.204 hostname
+  501  ssh student@10.2.190.205 hostname
+  502  ssh student@10.2.190.211 hostname
+  503  ssh student@10.2.190.28 hostname
+  504  ssh student@10.2.190.208 hostname
+  505  ssh student@10.2.190.207 hostname
+  506  ssh student@10.2.190.206 hostname
+  507  ssh student@10.2.190.205 hostname
+  508  echo hostname | ssh student@10.2.190.209
+  509  echo hostname | ssh student@10.2.190.212
+  510  ssh student@10.2.190.212 hostname
+  511  ssh student@10.2.190.213 hostname
+  512  mkdir tmp
+  513  cd tmp
+  514  ssh student@10.2.190.212 hostname
+  515  ssh student@10.2.190.210 hostname
+  516  scp student@10.2.190.210:pyapivz/* ./
+  517  mkdir templates
+  518  cd templates/
+  519  scp student@10.2.190.210:pyapivz/templates/* ./
+  520  cd ..
+  521  cd templates/
+  522  scp student@10.2.190.210:pyapivz/flask/templates/* ./
+  523  ssh student@10.2.190.210 find pyapivz/
+  524  ssh student@10.2.190.210 ls -l
+  525  ssh student@10.2.190.210 ls -l mycode
+  526  ssh student@10.2.190.210 ls -l mycode/flaskapi/
+  527  scp student@10.2.190.210:pyapivz/mycode/flaskapi/templates/* ./
+  528  scp student@10.2.190.210:mycode/flaskapi/templates/* ./
+  529  cd ..
+  530  scp student@10.2.190.210:mycode/flaskapi/* ./
+  531  cd ..
+  532  ssh student@10.2.190.210 ls -l mycode/flaskapi/
+  533  ssh student@10.2.190.210 ls -lrt mycode/flaskapi/
+  534  cd tmp
+  535  rm *
+  536  ll
+  537  ssh student@10.4.64.119 hostname
+  538  ssh student@10.4.69.116 hostname
+  539  scp student@10.4.69.116:pyapivz/paramikopip/flask07.py ./
+  540  cd templates/
+  541  rm *
+  542  scp student@10.4.69.116:pyapivz/paramikopip/templates/index* ./
+  543  rm index.html 
+  544  cd ..
+  545  ll
+  546  ll ..
+  547  mv flask07.py ../
+  548  mv templates/index* ../templates/
+  549  ll
+  550  cd ..
+  551  history > ../history.txt
