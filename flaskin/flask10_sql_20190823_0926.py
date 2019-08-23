@@ -13,15 +13,6 @@ def home():
 def new_student():
     return render_template("student.html")
 
-@app.route("/delentry")
-def del_row():
-    con = sql.connect("database.db")
-    con.row_factory = sql.Row
-    cur = con.cursor()
-    cur.execute("select * from students")
-    rows = cur.fetchall()
-    return render_template("student_delentry.html", rows = rows)
-
 @app.route("/addrec", methods = ["POST", "GET"])
 def addrec():
     if request.method == "POST":
@@ -46,21 +37,11 @@ def addrec():
             con.close()
             return render_template("result.html", msg = msg)
 
-@app.route("/delrec", methods = ["POST", "GET"])
-def delrec():
-    if request.method == "POST":
-        #con = sql.connect("database.db")
-        #con.row_factory = sql.Row
-        #cur = con.cursor()
-        #cur.execute("select * from students")
-        #rows = cur.fetchall()
-        #return render_template("student_delentry.html", rows = rows)
-        return render_template("list.html")
-
 @app.route('/list')
 def list():
     con = sql.connect("database.db")
     con.row_factory = sql.Row
+
     cur = con.cursor()
     cur.execute("select * from students")
     rows = cur.fetchall()

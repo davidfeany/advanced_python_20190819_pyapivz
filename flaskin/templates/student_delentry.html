@@ -1,0 +1,37 @@
+<html>
+  <body>
+    <form action = "{{ url_for('delrec') }}" method = "POST">
+
+      <h3>Which row do you wish to DELETE?</h3>
+      <font size=+2>DELETE ROW:</font>&nbsp;&nbsp;
+      <input type = "text" name = "rownum" /> &nbsp; &nbsp; 
+      <input type = "submit" value = "submit" /><br>
+
+      <br>
+      <br>
+
+      <table border = 1>
+        <thead>
+          <td>Row</td>
+          <td>Name</td>
+          <td>Address</td>
+          <td>City</td>
+          <td>Pincode</td>
+        </thead>
+
+	{% rowctr = 0 %}
+        {% for row in rows %}
+          <tr>
+            <td>{{rowctr}}</td>
+            <td>{{row["name"]}}</td>
+            <td>{{row["addr"]}}</td>
+            <td>{{row["city"]}}</td>
+            <td>{{row["pin"]}}</td>
+          </tr>
+	{% rowctr += 1 %}
+        {% endfor %}
+      </table>
+      <a href = "/">Go back to home page</a>
+    </form>
+  </body>
+</html>
