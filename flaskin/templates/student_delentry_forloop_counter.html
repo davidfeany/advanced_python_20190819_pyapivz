@@ -12,6 +12,7 @@
 
       <table border = 1>
         <thead>
+          <td>Row</td>
           <td>Name</td>
           <td>Address</td>
           <td>City</td>
@@ -20,6 +21,7 @@
 
         {% for row in rows %}
           <tr>
+            <td>{{forloop.counter0}}</td>
             <td>{{row["name"]}}</td>
             <td>{{row["addr"]}}</td>
             <td>{{row["city"]}}</td>
