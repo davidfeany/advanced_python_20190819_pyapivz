@@ -127,7 +127,7 @@ system-service==0.3
 systemd-python==234
 texttable==0.9.1
 tinyrpc==1.0.3
-Twisted==17.9.0
+Twisted==22.4.0
 ufw==0.36
 unattended-upgrades==0.1
 urllib3==1.25.3
